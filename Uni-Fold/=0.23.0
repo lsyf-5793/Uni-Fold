@@ -1,0 +1,11 @@
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/, https://pypi.ngc.nvidia.com
+Collecting scikit-learn
+  Downloading https://mirrors.aliyun.com/pypi/packages/3f/48/6fdd99f5717045f9984616b5c2ec683d6286d30c0ac234563062132b83ab/scikit_learn-1.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.1 MB)
+Collecting threadpoolctl>=2.0.0
+  Downloading https://mirrors.aliyun.com/pypi/packages/81/12/fd4dea011af9d69e1cad05c75f3f7202cdcbeac9b712eea58ca779a72865/threadpoolctl-3.2.0-py3-none-any.whl (15 kB)
+Collecting joblib>=1.1.1
+  Downloading https://mirrors.aliyun.com/pypi/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl (302 kB)
+Requirement already satisfied: scipy>=1.5.0 in /usr/local/lib/python3.8/dist-packages (from scikit-learn) (1.10.1)
+Requirement already satisfied: numpy<2.0,>=1.17.3 in /home/jixh/.local/lib/python3.8/site-packages (from scikit-learn) (1.24.4)
+Installing collected packages: threadpoolctl, joblib, scikit-learn
+Successfully installed joblib-1.3.2 scikit-learn-1.3.2 threadpoolctl-3.2.0
